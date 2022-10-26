@@ -1,0 +1,173 @@
+﻿
+
+body{
+
+    background-color: white;
+
+}
+
+.top{
+
+    display: flex;
+
+}
+
+.logo{
+    position: relative;
+
+    left: 70px;
+
+}
+
+
+
+
+.links {
+
+    position: absolute;
+    top: 80px;
+    left: 390px;
+
+    display: flex;
+
+
+}
+
+.link{
+
+    text-decoration: none;
+    font-family: "Trebuchet MS";
+    color: black;
+
+    width: 50px;
+
+    
+
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    margin-right: 30px;
+    margin-left: 30px;
+    background-color:lightsteelblue;
+}
+
+.link:hover{
+    background-color: black;
+    color: lightsteelblue;
+}
+
+.appointment{
+
+    z-index: 3;
+    border: 4px black solid;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: fixed;
+    right:75px;
+    top:30px;
+
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+
+}
+.appointment:hover{
+
+    background-color: lightsteelblue;
+}
+
+.blink{
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+    font-family: "Trebuchet MS";
+    margin: 10px;
+    padding-top: 20px;
+    position: relative;
+}
+
+
+.bott{
+
+
+    text-align: center;
+
+
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    margin-left: 0px;
+    margin-right: 100px;
+    border-radius: 4px
+}
+
+
+
+.blink:hover{
+
+    color: lightsteelblue;
+}
+
+
+
+
+
+
+
+
+
+.maintext{
+    
+    position: relative;
+    text-align: center;
+}
+
+
+
+
+
+
+
+.wrapper{
+    text-align: center;
+    
+    position: relative;
+    margin: auto;
+    margin-top: 80px;
+    
+    
+}
+
+.on{
+    box-shadow: 0px 10px 26px 3px rgba(114, 110, 191, 0.17);
+}
+.row{
+
+    
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+
+.person{
+    display: flex;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.preview{
+
+    text-align: left;
+    width: 50%;
+    margin: 10px;
+}
+
+.description{
+    background-color: lightsteelblue;
+    font-size: 20px;
+}

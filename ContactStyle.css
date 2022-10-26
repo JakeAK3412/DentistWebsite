@@ -1,0 +1,225 @@
+﻿
+
+
+
+body{
+
+    background-color: white;
+
+}
+
+.top{
+
+    display: flex;
+
+}
+
+.logo{
+    position: relative;
+
+    left: 70px;
+
+}
+
+
+
+
+.links {
+
+    position: absolute;
+    top: 80px;
+    left: 390px;
+
+    display: flex;
+
+
+}
+
+.link{
+
+    text-decoration: none;
+    font-family: "Trebuchet MS";
+    color: black;
+
+    width: 50px;
+
+    box-shadow: 0px 10px 26px 3px rgba(114, 110, 191, 0.17);
+
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    margin-right: 30px;
+    margin-left: 30px;
+    background-color:lightsteelblue;
+}
+
+.link:hover{
+    background-color: black;
+    color: lightsteelblue;
+}
+
+
+
+.appointment{
+
+    z-index: 3;
+    border: 4px black solid;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: fixed;
+    right:75px;
+    top:30px;
+
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+
+}
+.appointment:hover{
+
+    background-color: lightsteelblue;
+}
+
+.blink{
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+    font-family: "Trebuchet MS";
+    margin: 10px;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bott{
+
+
+    text-align: center;
+
+
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    margin-left: 0px;
+    margin-right: 100px;
+    border-radius: 4px
+}
+
+.blink:hover{
+
+    color: lightsteelblue;
+}
+
+
+
+
+
+
+
+::placeholder{
+    font-family: "Trebuchet MS";
+}
+
+
+
+input[type=text], select{
+    width: 31%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+textarea{
+    border: 1px solid #ccc;
+    
+    width: 71%;
+    
+}
+
+input[type=submit] {
+    background-color: darkgrey;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+h1{
+    
+}
+
+
+.container {
+
+
+
+    background-color: lightsteelblue;
+    position: relative;
+   
+    display: block;
+    text-align: center;
+    
+    
+    
+    
+    margin-bottom: 200px;
+    
+    height: 600px;
+    
+    width: 340px;
+}
+
+.form{
+    
+    background-color: lightsteelblue;
+    
+}
+
+
+
+.submit:hover{
+    background-color: black;
+}
+
+.overall{
+    display: flex;
+    text-align: center;
+    left: 105px;
+    position: absolute;
+    margin-top: 20px;
+    right: 0;
+}
+
+.map{
+    
+    margin-left: 1px;
+    margin-right: 60px;
+    
+    
+}
+
+  
+textarea{
+    
+    width: 275px;
+    margin-bottom: 30px;
+    
+}
